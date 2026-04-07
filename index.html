@@ -562,7 +562,6 @@ function showApp(){
   if(currentUser) document.getElementById('user-email-badge').textContent=currentUser.email;
 }
 
-let authMode = 'login';
 function toggleAuthMode(){
   authMode = authMode==='login'?'signup':'login';
   const isLogin = authMode==='login';
